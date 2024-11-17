@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.main{
+    background-color: bisque;
+}
+
+.h1{
+    color: blueviolet;
+}
+
+.navBar>ul{
+    display: flex;
+    list-style: none;
+    background-color: burlywood;
+}
+
+.navBar>ul>li{
+    margin-left: 4px; 
+}
+
+.navBar > ul > li:first-child {
+    margin-left: 0; /* Remove margin for the first child */
+}
+
+.navBar>ul>li>a{
+    text-decoration: none;
+    color: darkslategray;
+}
