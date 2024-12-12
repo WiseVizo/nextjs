@@ -1,3 +1,6 @@
+
+
+
 export default function blogHome(){
     return (<div>
         <h1 className="h1">Welcome to my Blogs page</h1>

@@ -1,3 +1,6 @@
+export const metadata = {
+  title: "My Portfolio | about me",
+};
 export default function AboutPage() {
     return (
       <div>
